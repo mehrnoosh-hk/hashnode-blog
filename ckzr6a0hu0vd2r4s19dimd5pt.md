@@ -1,59 +1,62 @@
-## Chaos Testing
+## Chaos Engineering
 
-MTTF: mean time to failure 
+We all try our best to design and develop the best possible software systems. We use unit testing, functional (integration) testing, and many other tests to make sure that our system works the way it should. But what if there was something that we, as developers, missed to consider? What if that unknown bug crashes our service? What about cascading failure?
 
-MTTR: mean time to recovery 
+> Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
 
-Compare a restaurant system with the following two situations:
+### Why is this important?
+The availability of a software system plays a critical role in customer satisfaction. Just consider that your banking app is unresponsive and there is no way to access your account. We always try to prevent such situations. This is the reason behind many best practices and design patterns, such as the circuit breaker or bulkhead pattern.
 
-1. MTTF: 3 years MTTR: 12 hours 
-2. MTTF: daily MTTR: a couple of seconds
+But after all, disasters happen. Sometimes by unhandled exception, other times by malicious user, or by hardware failure, or malformed response from third party services,...
 
-Step 1:
+At a high level, *chaotic engineering* is simply creating the capability to continuously, but randomly, cause failures in your production system. Here are two useful terms in CE:
 
-Planed Crash
+MTTF: Mean Time To Failure 
 
-Proposeful crash the production system:
+MTTR: Mean Time To Recovery 
+
+The practice of CE is meant to test the resiliency of the systems and the environment, as well as determine MTTR. To better understand the importance of MTTR, compare a banking system with the following two situations:
+
+1. The mean time between system failures is 3 years, but when such an incident happens, it takes 12 hours to fix it. MTTF: 3 years MTTR: 12 hours
+
+2. The system failures occur every month, but when it takes just a couple of seconds fix it: MTTF: monthly MTTR: a couple of seconds
+
+Benefits of a proposed crash in the production system:
 
 1. Developers know the importance of checks and testing
 2. More accurate observations and monitoring 
-3. increasing the awareness of everyone in the organization on the need to focus on resiliency.
-4. Improve resilience 
+3. Increasing the awareness of everyone in the organization on the need to focus on resiliency.
+4. Improvement of resilience
+5. Improvement of MTTR
 
-Step 2:
+As Defined by a Netflix Engineer:
 
-Chaos Testing 
+> Chaos engineering is the discipline of experimenting on a software system in production to build confidence in the system's capability to withstand turbulent and unexpected conditions.
 
-At a high level, *chaotic testing* is simply creating the capability to continuously, but randomly, cause failures in your production system.
+Note that you can get creative and generate targeted yet random failures aimed at only a particular aspect of your environment, such as degrading system performance, increasing response time, shutting down access to part of the network, or killing off a microservice.
 
-This practice is meant to test the resiliency of the systems and the environment, as well as determine MTTR.
+It also helps teams simulate real-world conditions needed to uncover hidden issues, monitoring blind spots, and performance bottlenecks that are difficult to find in distributed systems. This method is quite effective in preventing downtime or production outages before they occur.
+In this process, we present failure scenarios to test the system's capability of surviving against unstable and unexpected conditions.
 
-**As Defined by a Netflix Engineer:**
+### Chaos Testing Steps:
 
-"Chaos engineering is the discipline of experimenting on a software system in production to build confidence in the system's capability to withstand turbulent and unexpected conditions."
-
-Note that you can get creative and generate targeted yet random failures aimed at only a particular aspect of your environment, such as degrading system performance, shutting down access to part of the network, or killing off a microservice.
-
-It also helps teams simulate real-world conditions needed to uncover the hidden issues, monitoring blind spots and performance bottlenecks that are difficult to find in distributed systems. This method is quite effective in preventing downtime or production outages before their occurrence.
-
-Chaos engineering is the process of exposing a software system by introducing disruptive events, such as server outages or API throttling. In this process, we present failure scenarios faults to test the system's capability of surviving against unstable and unexpected conditions.
-
-**The process:**
-
-1. Define system normal behaviour 
-2. Creating a hypothesis 
-3. Apply real-world events like terminating servers, network failures, latency, dependency failure, memory malfunction, etc.
+1. Define the system's normal behaviour 
+2. Creating a Hypothesis
+3. Apply real-world events like terminating servers, network failures, latency, dependency failures, memory malfunctions, etc.
 4. Observe results 
 
-As more companies move toward microservices and other distributed technologies, the complexity of these systems increases. You can't remove the complexity, but through Chaos Engineering, you can discover vulnerabilities and prevent outages before they impact your customers.
+As more companies move toward microservices and other distributed technologies, the complexity of these systems increases exponentially. You can't remove the complexity, but through Chaos Engineering, you can discover vulnerabilities and prevent outages before they impact your customers.
 
-Chaos Monkey: This is a simple app that would go through a list of clusters, pick one instance at random from each cluster, and at some point during business hours, turn it off without warning. It would do this every workday.
+### Chaos Monkey: 
+This is an application developed by NETFLIX. 
+[Chaos Monkey](https://netflix.github.io/chaosmonkey/) is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.
+This is a simple app that would go through a list of clusters, pick one instance at random from each cluster, and at some point during business hours, turn it off without warning. It would do this every workday.
 
-Chaos Kong works on large scale vanishing regions.
+**Chaos Kong ** works on large scale vanishing regions.
 
-> Chaos engineering is when we break things in production on purpose. This isn't about creating chaos. Chaos Engineering is about making the chaos inherent in the system visible.
+> Chaos engineering is when we break things in production on purpose. This isn't about creating chaos. Chaos Engineering is about making the chaos inherent in the system, visible.
 
-Chaos Engineering is the discipline of experimenting on a distributed system to build confidence in the system's capability to withstand
-turbulent conditions in production. So Chaos testing is a form of *experimentation*, which sits apart from *testing*.
 
 approached issues of resilience, failure injection, fault testing, disaster recovery testing
+
+For anyone who are interested to learn more about this topic [here](https://github.com/dastergon/awesome-chaos-engineering) is a list of awesome resources.
