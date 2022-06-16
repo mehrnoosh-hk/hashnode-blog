@@ -19,11 +19,11 @@ The practice of CE is meant to test the resiliency of the systems and the enviro
 
 1. The mean time between system failures is 3 years, but when such an incident happens, it takes 12 hours to fix it. MTTF: 3 years MTTR: 12 hours
 
-2. The system failures occur every month, but when it takes just a couple of seconds fix it: MTTF: monthly MTTR: a couple of seconds
+2. System failures occur every month, but when it takes just a couple of seconds to fix it: MTTF: monthly MTTR: a couple of seconds
 
 Benefits of a proposed crash in the production system:
 
-1. Developers know the importance of checks and testing
+1. Developers know the importance of checks and testing.
 2. More accurate observations and monitoring 
 3. Increasing the awareness of everyone in the organization on the need to focus on resiliency.
 4. Improvement of resilience
@@ -40,23 +40,24 @@ In this process, we present failure scenarios to test the system's capability of
 
 ### Chaos Testing Steps:
 
-1. Define the system's normal behaviour 
+1. Defining the system's normal behavior
 2. Creating a Hypothesis
-3. Apply real-world events like terminating servers, network failures, latency, dependency failures, memory malfunctions, etc.
-4. Observe results 
+3. Applying real-world events like terminating servers, network failures, latency, dependency failures, memory malfunctions, etc.
+4. Observing the results
+5. Improving
+6. Iterate 
 
 As more companies move toward microservices and other distributed technologies, the complexity of these systems increases exponentially. You can't remove the complexity, but through Chaos Engineering, you can discover vulnerabilities and prevent outages before they impact your customers.
 
 ### Chaos Monkey: 
-This is an application developed by NETFLIX. 
-[Chaos Monkey](https://netflix.github.io/chaosmonkey/) is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.
+There are platforms developed to enhance the process of CE. Some of them are open source, and others are commercial products.  
+[Chaos Monkey](https://netflix.github.io/chaosmonkey/) is an application developed by NetFlix and is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.
 This is a simple app that would go through a list of clusters, pick one instance at random from each cluster, and at some point during business hours, turn it off without warning. It would do this every workday.
 
-**Chaos Kong ** works on large scale vanishing regions.
+**Chaos Kong ** is another product by NetFlix that works on large scale vanishing regions.
 
-> Chaos engineering is when we break things in production on purpose. This isn't about creating chaos. Chaos Engineering is about making the chaos inherent in the system, visible.
+[Gremline](https://www.gremlin.com/) is another chaos engineering platform. 
 
+> Chaos engineering is when we break things in production on purpose. This isn't about creating chaos. Chaos engineering is about making the chaos inherent in the system, visible.
 
-approached issues of resilience, failure injection, fault testing, disaster recovery testing
-
-For anyone who are interested to learn more about this topic [here](https://github.com/dastergon/awesome-chaos-engineering) is a list of awesome resources.
+For anyone who is interested in learning more about this topic [here](https://github.com/dastergon/awesome-chaos-engineering) is a list of awesome resources.
