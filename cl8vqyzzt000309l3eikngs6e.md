@@ -1,1 +1,235 @@
-IyMgQ29tbWFuZCBEZXNpZ24gUGF0dGVybiBBbmQgSXRzIEltcGxlbWVudGF0aW9uIEluIFB5dGhvbgoKVGhlIENvbW1hbmQgZGVzaWduIHBhdHRlcm4gaXMgYSBiZWhhdmlvcmFsIHBhdHRlcm4gdGhhdCBjb252ZXJ0cyBhIHJlcXVlc3QgaW50byBhIHN0YW5kLWFsb25lIG9iamVjdCB0aGF0IGNvbnRhaW5zIGFsbCB0aGUgaW5mb3JtYXRpb24gbmVlZGVkIGZvciBwZXJmb3JtaW5nIHRoZSByZXF1ZXN0LiBVc2luZyB0aGlzIGFwcHJvYWNoIGhhcyB0aGUgZm9sbG93aW5nIGJlbmVmaXRzOgotIFRoZSByZXF1ZXN0IGNhbiBiZSBwYXNzZWQgYXMgYW4gYXJndW1lbnQgdG8gb3RoZXIgZnVuY3Rpb25zIGFuZCBtZXRob2RzLgotIFRoZSByZXF1ZXN0IGNhbiBiZSBxdWV1ZWQgYW5kIGV4ZWN1dGVkIGxhdGVyLgotIFByb3ZpZGVzIHN1cHBvcnQgZm9yIFJlZG8gYW5kIFVuZG8gbG9naWMsIGlmIGFwcGxpY2FibGUuCgotIFByb3ZpZGVzIHN1cHBvcnQgZm9yIGlzc3VpbmcgY29tbWFuZCBvbiBvbmUgZGV2aWNlIGFuZCBydW5uaW5nIGl0IG9uIGFub3RoZXIgZGV2aWNlIGFsc28ga25vd24gYXMgbmV0d29ya2luZy4gKGZvciBleGFtcGxlIGluIG9ubGluZSBnYW1lcykKCgpUbyBiZXR0ZXIgZGVtb25zdHJhdGUgdGhpcyBjb25jZXB0LCBjb25zaWRlciB0aGF0IHlvdSBhcmUgYnVpbGRpbmcgYSB0ZXh0IGVkaXRvci4gWW91ciBhcHAgaGFzIGEgdXNlciBpbnRlcmZhY2UgZm9yIGNvbW11bmljYXRpbmcgd2l0aCB1c2Vycy4gVGhpcyBHVUkgaGFzIHNvbWUgYnV0dG9ucyBmb3IgZXhlY3V0aW5nIGNvbW1hbmRzIGxpa2UgY29weSwgcGFzdGUsIHNhdmUsLi4uIEhvdyBjYW4gd2UgaW1wbGVtZW50IHRoaXMgdXNpbmcgb2JqZWN0LW9yaWVudGVkIGRlc2lnbj8gUGVyaGFwcyB3aGF0IGNvbWVzIHRvIG1pbmQgaXMgdGhhdCB5b3UgY3JlYXRlIGEgQnV0dG9uIGJhc2UgY2xhc3MgYW5kIGEgYnVuY2ggb2Ygc3ViLWNsYXNzZXMgbGlrZSBDYW5jZWxCdXR0b24sIFNhdmVCdXR0b24sIENvcHlCdXR0b24sIGFuZCBzbyBvbiBhbmQgdGhlbiBpbXBsZW1lbnQgdGhlIGFjdHVhbCBsb2dpYyBpbnNpZGUgZWFjaCBvZiB0aGVtLiBCdXQgd2hhdCBpcyB3cm9uZyB3aXRoIHRoaXMgYXBwcm9hY2g/IFNvb24geW91IHJlY29nbml6ZSB0aGF0IHlvdSBoYXZlIHNvIG1hbnkgc3ViLWNsYXNzZXMsIGJ1dCB0aGF0IGlzIG5vdCBhbGwuIFRoZSBtYWluIHByb2JsZW0gYXJpc2VzIHdoZW4geW91IGFkZCBvdGhlciBVSSBjb21wb25lbnRzIHRvIHBlcmZvcm0gdGhlIHNhbWUgd29yaywgZm9yIGV4YW1wbGUsIGFkZGluZyBhbiBFZGl0IG1lbnUgb24gdG9wIG9mIHRoZSBwYWdlIG9yIGFkZGluZyBrZXlib2FyZCBzaG9ydGN1dHMuIEluIHRoaXMgY2FzZSwgc2hvdWxkIHdlIGltcGxlbWVudCB0aGUgbG9naWMgaW4gZWFjaCBvZiB0aGVzZSBvYmplY3RzPyBPZiBjb3Vyc2UsIHRoZSBhbnN3ZXIgaXMgbm8sIGJlY2F1c2UgZG9pbmcgdGhpcyBtYWtlcyBvdXIgY29kZSBlcnJvciBwcm9uZSBkdWUgdG8gZHVwbGljYXRpb24sIGFuZCBjaGFuZ2luZyB0aGUgbG9naWMgYmVjb21lcyBhIGhlYWRhY2hlIHNpbmNlIHlvdSBoYXZlIHRvIGNoYW5nZSBzbyBtYW55IGRpZmZlcmVudCBwbGFjZXMuIAojIyMgQ29tbWFuZCBEZXNpZ24gUGF0dGVybgpUaGUgc29sdXRpb24gaXMgdG8gY3JlYXRlIGEgY29tbWFuZCBpbnRlcmZhY2UuIFRoaXMgaW50ZXJmYWNlIGhhcyBvbmx5IG9uZSBtZXRob2QgKipleGVjdXRlKCkqKi4gQWxsIGJ1c2luZXNzIGxvZ2ljIGNvbW1hbmRzIGNhbiBiZSBpbXBsZW1lbnRhdGlvbnMgb2YgdGhpcyBpbnRlcmZhY2UsIGFuZCBhbGwgR1VJIGVsZW1lbnRzIGp1c3QgY2FsbCB0aGUgZXhlY3V0ZSBtZXRob2Qgb24gdGhlIHJlbGV2YW50IGNvbW1hbmQuClshW10oaHR0cHM6Ly9tZXJtYWlkLmluay9pbWcvcGFrbzplTnAxVXN1T3dqQU1fSlhJcDBYQUQwVGN5bXExQjA2SVd5NVdZNVpxU1lKU1I2S0NfanRwMDlLSGlnOTV6TmhqT19FRGNxY0pKT1JYTE10OWdYOGVqYklpV3VhTVFhdkY3cm5kaXN3VE1uWFFFdTl1MVJJcnhacnVsQWVtcjFVaTB0cW1tNm8tRXRQWTJxSWhVYklmUVRPWk9ncE5wSVlDeEZqcDdKMFJhS3NSeEc0R3pLVjc1VWw1WWhmYl9Ebjk5dTBONmQ3RXA2amp4UVhQV2VEbDJCSDlTZUZBTml3SEoyWm9wakhZZ0NGdnNORHhZOXZIVU1BWE1xUkF4cU5HXzY5QTJUcjZoWnVPcWI1MXdjNkRaQjlvQXhqWUhTdWI5X2ZrMDgwR3lETmV5NGhTRzNQb3BxZlo2aGZGcTdjeSldKGh0dHBzOi8vbWVybWFpZC5saXZlL2VkaXQjcGFrbzplTnAxVXN1T3dqQU1fSlhJcDBYQUQwVGN5bXExQjA2SVd5NVdZNVpxU1lKU1I2S0NfanRwMDlLSGlnOTV6TmhqT19FRGNxY0pKT1JYTE10OWdYOGVqYklpV3VhTVFhdkY3cm5kaXN3VE1uWFFFdTl1MVJJcnhacnVsQWVtcjFVaTB0cW1tNm8tRXRQWTJxSWhVYklmUVRPWk9ncE5wSVlDeEZqcDdKMFJhS3NSeEc0R3pLVjc1VWw1WWhmYl9Ebjk5dTBONmQ3RXA2amp4UVhQV2VEbDJCSDlTZUZBTml3SEoyWm9wakhZZ0NGdnNORHhZOXZIVU1BWE1xUkF4cU5HXzY5QTJUcjZoWnVPcWI1MXdjNkRaQjlvQXhqWUhTdWI5X2ZrMDgwR3lETmV5NGhTRzNQb3BxZlo2aGZGcTdjeSkKClRoaXMgZGlhZ3JhbSBpcyBtYWlkIHVzaW5nIFtNZXJtYWlkXShodHRwczovL21lcm1haWQubGl2ZS8pCiMjIyBDb2RlIGV4YW1wbGUKTGV0J3MgdGFrZSBhZHZhbnRhZ2Ugb2YgYSBjbGFzc2ljIGV4YW1wbGUgdG8gZGVtb25zdHJhdGUgdGhlIGNvbW1hbmQgZGVzaWduIHBhdHRlcm4uIENvbnNpZGVyIHRoYXQgeW91IGFyZSBkZXNpZ25pbmcgYW5kIGJ1aWxkaW5nIGEgc29mdHdhcmUgc3lzdGVtIGZvciBhIGJhbmssIGFuZCBpdHMgYmFzaWMgc2VydmljZXMgYXJlIGRlcG9zaXRpbmcsIHdpdGhkcmF3aW5nLCBhbmQgdHJhbnNmZXJyaW5nIG1vbmV5IGZyb20gb25lIGFjY291bnQgdG8gYW5vdGhlci4gVGhpcyBzeXN0ZW0gd291bGQgYmUgYWNjZXNzZWQgdGhyb3VnaCBhIG1vYmlsZSBhcHAsIGFuIEFUTSBkZXZpY2UsIGFuZCBhIHdlYiBhcHAuCkxldHMgc3RhcnQgd2l0aCBpbXBsZW1lbnRpbmcgYnVzaW5lc3MgbW9kZWwuCmBgYFB5dGhvbgpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MsIGZpZWxkCmltcG9ydCByYW5kb20KaW1wb3J0IHN0cmluZwoKCmRlZiBjcmVhdGVfYWNjX2lkKCk6CiAgICByZXR1cm4gIiIuam9pbihyYW5kb20uY2hvaWNlcyhzdHJpbmcuZGlnaXRzLCBrPTEyKSkKCgpAZGF0YWNsYXNzCmNsYXNzIEFjY291bnQ6CiAgICBvd25lcjogc3RyCiAgICBhY2NfaWQ6IHN0ciA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT1jcmVhdGVfYWNjX2lkKQogICAgYmFsYW5jZTogaW50ID0gMAoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBpc192YWxpZF9kZXBvc2l0ZV9hbW91bnQoYW1vdW50OiBmbG9hdCkgLT4gYm9vbDoKICAgICAgICByZXR1cm4gaXNpbnN0YW5jZShhbW91bnQsIGZsb2F0KSBhbmQgYW1vdW50ID49IDAKCiAgICBkZWYgaXNfdmFsaWRfd2l0aGRyYXdfYW1vdW50KHNlbGYsIGFtb3VudDogZmxvYXQpIC0+IGJvb2w6CiAgICAgICAgcmV0dXJuIGlzaW5zdGFuY2UoYW1vdW50LCBmbG9hdCkgYW5kIGFtb3VudCA8IHNlbGYuYmFsYW5jZQoKICAgIGRlZiBkZXBvc2l0KHNlbGYsIGFtb3VudDogZmxvYXQpIC0+IE5vbmU6CiAgICAgICAgaWYgbm90IHNlbGYuaXNfdmFsaWRfZGVwb3NpdGVfYW1vdW50KGFtb3VudCk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIllvdSBjYW4gb25seSBkZXBvc2l0IG5vbmUgbmVnYXRpdmUgYW1vdW50IikKICAgICAgICBzZWxmLmJhbGFuY2UgKz0gYW1vdW50CgogICAgZGVmIHdpdGhkcmF3KHNlbGYsIGFtb3VudDogZmxvYXQpIC0+IE5vbmU6CiAgICAgICAgaWYgbm90IHNlbGYuaXNfdmFsaWRfd2l0aGRyYXdfYW1vdW50KGFtb3VudCk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJZb3UgY2FuIG5vdCB3aXRoZHJhdyAke2Ftb3VudH0iKWltcG9ydCBjbGljawoKZnJvbSBhcHAuYWNjb3VudCBpbXBvcnQgQWNjb3VudAoKCkBjbGljay5ncm91cCgpCmRlZiBjbGkoKToKICAgIHBhc3MKCkBjbGljay5jb21tYW5kKCkKQGNsaWNrLmFyZ3VtZW50KCdvd25lcicpCmRlZiBjcmVhdGVfYWNjb3VudChvd25lcik6CiAgICBhY2NvdW50ID0gQWNjb3VudChvd25lcikKICAgIGNsaWNrLmVjaG8oYWNjb3VudC5hY2NfaWQpCiAgICByZXR1cm4gYWNjb3VudC5hY2NfaWQKCgoKY2xpLmFkZF9jb21tYW5kKGNyZWF0ZV9hY2NvdW50KQoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGNsaSgpCiAgICAgICAgc2VsZi5iYWxhbmNlIC09IGFtb3VudAoKY2xhc3MgQmFuazoKICAgIGRlZiBfX2luaXRfXyhzZWxmKSAtPiBOb25lOgogICAgICAgIHNlbGYuX19hY2NvdW50cyA9IHt9CiAgICAgICAgc2VsZi5fX2FyY2hpdmVkID0ge30KCiAgICBkZWYgb3Blbl9hY2NvdW50KHNlbGYsIGFjY291bnQ6IEFjY291bnQpIC0+IE5vbmU6CiAgICAgICAgaWYgYWNjb3VudC5hY2NfaWQgaW4gc2VsZi5fX2FjY291bnRzOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJUaGlzIGFjY291bnQgYWxyZWFkeSBleGlzdHMiKQogICAgICAgIHNlbGYuX19hY2NvdW50cy51cGRhdGUoe2FjY291bnQuYWNjX2lkOiBhY2NvdW50fSkKCiAgICBkZWYgY2xvc2VfYWNjb3VudChzZWxmLCBhY2NvdW50OiBBY2NvdW50KSAtPiBOb25lOgogICAgICAgIGlmIG5vdCBhY2NvdW50LmFjY19pZCBpbiBzZWxmLl9fYWNjb3VudHM6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIk5vIHN1Y2ggYWNjb3VudCIpCiAgICAgICAgZGVsIHNlbGYuX19hY2NvdW50c1thY2NvdW50LmFjY19pZF0KICAgICAgICBzZWxmLl9fYXJjaGl2ZWQudXBkYXRlKHthY2NvdW50LmFjY19pZDogYWNjb3VudH0pCmBgYApTbyB3ZSBoYXZlIHR3byBtYWluIGNsYXNzIGFuIEFjY291bnQgYW5kIGEgQmFuay4gVG8gY3JlYXRlIHVzZXIgaW50ZXJmYWNlLCBJIHVzZWQgY2xpY2sgYW5kIGNsaWNrX3NoZWxsIGxpYnJhcmllcyB0byBjcmVhdGUgYSBuaWNlIGFuZCBlYXN5IENMSSBmb3Igb3VyIEJhbmstU3lzdGVtLgoKYGBgUHl0aG9uCmltcG9ydCBjbGljawpmcm9tIGNsaWNrX3NoZWxsIGltcG9ydCBzaGVsbAoKZnJvbSBhcHAuYWNjb3VudCBpbXBvcnQgQWNjb3VudApmcm9tIGFwcC5iYW5rIGltcG9ydCBteV9iYW5rCgoKQHNoZWxsKHByb21wdD0nYmFuayA+ICcsIGludHJvPSJXZWxjb21lIHRvIG91ciBiYW5rIGFwcCwgXG5FbnRlciBhIGNvbW1hbmQgIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm9yIHR5cGUgaGVscCBmb3IgaW5zdHJ1Y3Rpb24iKQpkZWYgYmFuaygpOgogICAgcGFzcwoKCkBiYW5rLmNvbW1hbmQoKQpAY2xpY2sub3B0aW9uKCItb3duZXIiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJUaGUgYWNjb3VudCBvd25lciBuYW1lIikKZGVmIGNyZWF0ZV9hY2NvdW50KG93bmVyKSAtPiBOb25lOgogICAgIiIiQ3JlYXRlIE5ldyBCYW5rIEFjY291bnQKCiAgICBBcmdzOgogICAgICAgIG93bmVyIChzdHIpOiBUaGUgbmFtZSBvZiB0aGUgYWNjb3VudCBvd25lcgogICAgIiIiCiAgICBhY2NvdW50ID0gQWNjb3VudChvd25lcikKICAgIG15X2Jhbmsub3Blbl9hY2NvdW50KGFjY291bnQpCiAgICBwcmludChmIkFjY291bnQgY3JlYXRlZCB3aXRoIElkIHthY2NvdW50LmFjY19pZH0iKQoKCkBiYW5rLmNvbW1hbmQoKQpAY2xpY2sub3B0aW9uKCItYWNjX2lkIiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0iVGhlIGFjY291bnQgaWQiKQpAY2xpY2sub3B0aW9uKCItYW1vdW50IiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0iVGhlIGFtb3VudCB0byBkZXBvc2l0IiwKICAgICAgICAgICAgICB0eXBlPWNsaWNrLkZMT0FUKQpkZWYgZGVwb3NpdChhY2NfaWQ6IHN0ciwgYW1vdW50OiBmbG9hdCkgLT4gTm9uZToKICAgICIiIkRlcG9zaXQgc29tZSBhbW91bnQgb2YgbW9uZXkgdG8gYSBiYW5rIGFjY291bnQKCiAgICBBcmdzOgogICAgICAgIGFjY19pZCAoc3RyKTogQWNjb3VudCdzIElECiAgICAgICAgYW1vdW50IChmbG9hdCk6IFRoZSBhbW91bnQgb2YgbW9uZXkgdG8gYmUgZGVwb3NpdGVkCiAgICAiIiIKICAgIGFjY291bnQgPSBteV9iYW5rLmdldF9hY2NvdW50X2J5X2FjY19pZChhY2NfaWQpCiAgICBpZiBub3QgYWNjb3VudDoKICAgICAgICBwcmludCgiVGhlcmUgaXMgbm8gYWNjb3VudCB3aXRoIHRoaXMgYWNjb3VudCBpZCIpCiAgICAgICAgcmV0dXJuCiAgICBhY2NvdW50LmRlcG9zaXQoYW1vdW50KQogICAgcHJpbnQoIkRlcG9zaXRlZCBzdWNjZXNzZnVsbHkiKQogICAgcmV0dXJuCgoKQGJhbmsuY29tbWFuZCgpCkBjbGljay5vcHRpb24oIi1hY2NfaWQiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJUaGUgYWNjb3VudCBpZCIpCkBjbGljay5vcHRpb24oIi1hbW91bnQiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJUaGUgYW1vdW50IHRvIHdpdGhkcmF3IiwKICAgICAgICAgICAgICB0eXBlPWNsaWNrLkZMT0FUKQpkZWYgd2l0aGRyYXcoYWNjX2lkOiBzdHIsIGFtb3VudDogZmxvYXQpIC0+IE5vbmU6CiAgICAiIiJXaXRoZHJhdyBzb21lIGFtb3VudCBvZiBtb25leSB0byBhIGJhbmsgYWNjb3VudAoKICAgIEFyZ3M6CiAgICAgICAgYWNjX2lkIChzdHIpOiBBY2NvdW50J3MgSUQKICAgICAgICBhbW91bnQgKGZsb2F0KTogVGhlIGFtb3VudCBvZiBtb25leSB0byBiZSB3aXRoZHJhd24KICAgICIiIgogICAgYWNjb3VudCA9IG15X2JhbmsuZ2V0X2FjY291bnRfYnlfYWNjX2lkKGFjY19pZCkKICAgIGlmIG5vdCBhY2NvdW50OgogICAgICAgIHByaW50KCJUaGVyZSBpcyBubyBhY2NvdW50IHdpdGggdGhpcyBhY2NvdW50IGlkIikKICAgICAgICByZXR1cm4KICAgIGFjY291bnQud2l0aGRyYXcoYW1vdW50KQogICAgcmV0dXJuCgoKQGJhbmsuY29tbWFuZCgpCkBjbGljay5vcHRpb24oIi1hY2NfaWQiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJUaGUgYWNjb3VudCBpZCIpCmRlZiBhY2NvdW50X2luZm8oYWNjX2lkOiBzdHIpIC0+IE5vbmU6CiAgICAiIiIKICAgIFNob3cgdGhlIGFjY291bnQgaW5mb3JtYXRpb24KICAgIEFyZ3M6CiAgICAgICAgYWNjX2lkIChzdHIpOiBBY2NvdW50J3MgSUQKICAgICIiIgogICAgYWNjb3VudCA9IG15X2JhbmsuZ2V0X2FjY291bnRfYnlfYWNjX2lkKGFjY19pZCkKICAgIGlmIG5vdCBhY2NvdW50OgogICAgICAgIHByaW50KCJUaGVyZSBpcyBubyBhY2NvdW50IHdpdGggdGhpcyBhY2NvdW50IGlkIikKICAgICAgICByZXR1cm4KICAgIHByaW50KGFjY291bnQpCiAgICByZXR1cm4KCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgYmFuaygpCmBgYCAKVXNpbmcgdGhpcyBDTEkgYXBwLCB5b3UgY2FuIGludGVyYWN0IHdpdGggdGhlIG1haW4gYnVzaW5lc3MgbG9naWMgb2Ygb3VyIGJhbmsgc3lzdGVtLiBBcyB5b3Ugc2VlIGluIHRoZSBjb2RlLCBjbGkucHkgYXJlIGNhbGxpbmcgQWNjb3VudCBhbmQgQmFuayBtZXRob2RzIGRpcmVjdGx5LiBUaGlzIG1lYW5zIHRoYXQgaWYgd2UgY2hhbmdlIG91ciBidXNpbmVzcyBsb2dpYyB0aGVuIHdlIHNob3VsZCBhcHBseSB0aGVzZSBjaGFuZ2VzIGluIGNsaS5weSBhY2NvcmRpbmdseSBhbmQgdGhpcyBtZWFucyB0aWdodCBjb3VwbGluZy4gTm90aWNlIHRoYXQgY2xpLnB5IHNob3VsZCBrbm93IGFib3V0IGV4aXN0YW5jZSBvZiBib3RoIGNsYXNzZXMgYW5kIGtub3cgYWJvdXQgdGhlaXIgcmVzcGVjdGl2ZSBtZXRob2RzLgoKU28gdG8gZGVjb3VwbGUgb3VyIGludGVyZmFjZSBmcm9tIG91ciBidXNpbmVzcyBsb2dpYywgd2UgbmVlZCB0byBhZGQgYW5vdGhlciBsYXllciB0byBvdXIgYXBwbGljYXRpb24uClRvIGRvIHRoaXMgd2UgY3JlYXRlIGEgZmlsZSBpY29tbWFuZC5weSBhbmQgaW4gaXQgd2UgY3JlYXRlIGFuIGludGVyZmFjZSBmb3Igb3VyIGJhbmsgdHJhbnNhY3Rpb25zIGNvbW1hbmRzLgoKYGBgcHl0aG9uCmZyb20gdHlwaW5nIGltcG9ydCBQcm90b2NvbAoKCmNsYXNzIFRyYW5zYWN0aW9uQ29tbWFuZChQcm90b2NvbCk6CgogICAgZGVmIGV4ZWN1dGUoKToKICAgICAgICAuLi4KYGBgClRoZW4gdG8gaW1wbGVtZW50IHRoaXMgaW50ZXJmYWNlIGNyZWF0ZSBhIGZpbGUgY29tbWFuZHMucHkgYW5kIGFkZCB0aGUgZm9sbG93aW5nIGNvZGUgdG8gaXQ6CgpgYGBQeXRob24KZnJvbSBhcHAuYWNjb3VudCBpbXBvcnQgQWNjb3VudApmcm9tIGFwcC5iYW5rIGltcG9ydCBteV9iYW5rCgpjbGFzcyBDcmVhdGVDb21tYW5kOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG93bmVyOiBzdHIpOgogICAgICAgIHNlbGYub3duZXIgPSBvd25lcgogICAgZGVmIGV4ZWN1dGUoc2VsZik6CiAgICAgICAgYWNjb3VudCA9IEFjY291bnQoc2VsZi5vd25lcikKICAgICAgICBteV9iYW5rLm9wZW5fYWNjb3VudChhY2NvdW50KQpgYGAKSSBqdXN0IGltcGxlbWVudGVkIHRoZSBhY2NvdW50IGNyZWF0aW9uIGNvbW1hbmQsIGJ1dCBvYnZpb3VzbHkgdGhlIG90aGVyIGNvbW1hbmRzIGFyZSBub3Qgc28gZGlmZmVyZW50LiAoWW91IGNhbiBhY2Nlc3MgdGhlIGNvbXBsZXRlZCBjb2RlIGhlcmUpCgpOb3cgaXQgaXMgZW5vdWdoIHRvIGNoYW5nZSB0aGUgY2xpLnB5IGZpbGUgYWNjb3JkaW5nbHk6CmBgYFB5dGhvbgppbXBvcnQgYXBwLmNvbW1hbmRzIGFzIGNvbW1hbmRzCgpAYmFuay5jb21tYW5kKCkKQGNsaWNrLm9wdGlvbigiLW93bmVyIiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0iVGhlIGFjY291bnQgb3duZXIgbmFtZSIpCmRlZiBjcmVhdGVfYWNjb3VudChvd25lcikgLT4gTm9uZToKICAgICIiIkNyZWF0ZSBOZXcgQmFuayBBY2NvdW50CgogICAgQXJnczoKICAgICAgICBvd25lciAoc3RyKTogVGhlIG5hbWUgb2YgdGhlIGFjY291bnQgb3duZXIKICAgICIiIgogICAgY29tbWFuZHMuQ3JlYXRlQ29tbWFuZChvd25lcikKYGBgCgoKIVtDb21tYW5kRGVzaWduUGF0dGVybi5kcmF3aW8ucG5nXShodHRwczovL2Nkbi5oYXNobm9kZS5jb20vcmVzL2hhc2hub2RlL2ltYWdlL3VwbG9hZC92MTY2NDk4MDc1ODY5NC9CdnM5ajlCcHgucG5nIGFsaWduPSJjZW50ZXIiKQoKIyMjIFJlc291cmNlcyB0byBsZWFybiBtb3JlOgoKLSBodHRwczovL3JlZmFjdG9yaW5nLmd1cnUvZGVzaWduLXBhdHRlcm5zL2NvbW1hbmQKCi0gW0ltcGxlbWVudGluZyBVbmRvIEFuZCBSZWRvIFdpdGggVGhlIENvbW1hbmQgRGVzaWduIFBhdHRlcm5dKGh0dHBzOi8veW91dHUuYmUvRk03MV9hM3R4VG8pCgotIFtDb21tYW5kIHBhdHRlcm4uICgyMDIyLCBNYXkgMjcpLiBJbiBXaWtpcGVkaWEuXShodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9Db21tYW5kX3BhdHRlcm4pCgoKCgoKCg==
+# Command Design Pattern And Its Implementation In Python
+
+The Command design pattern is a behavioral pattern that converts a request into a stand-alone object that contains all the information needed for performing the request. Using this approach has the following benefits:
+- The request can be passed as an argument to other functions and methods.
+- The request can be queued and executed later.
+- Provides support for Redo and Undo logic, if applicable.
+
+- Provides support for issuing command on one device and running it on another device also known as networking. (for example in online games)
+
+
+To better demonstrate this concept, consider that you are building a text editor. Your app has a user interface for communicating with users. This GUI has some buttons for executing commands like copy, paste, save,... How can we implement this using object-oriented design? Perhaps what comes to mind is that you create a Button base class and a bunch of sub-classes like CancelButton, SaveButton, CopyButton, and so on and then implement the actual logic inside each of them. But what is wrong with this approach? Soon you recognize that you have so many sub-classes, but that is not all. The main problem arises when you add other UI components to perform the same work, for example, adding an Edit menu on top of the page or adding keyboard shortcuts. In this case, should we implement the logic in each of these objects? Of course, the answer is no, because doing this makes our code error prone due to duplication, and changing the logic becomes a headache since you have to change so many different places. 
+### Command Design Pattern
+The solution is to create a command interface. This interface has only one method **execute()**. All business logic commands can be implementations of this interface, and all GUI elements just call the execute method on the relevant command.
+[![](https://mermaid.ink/img/pako:eNp1UsuOwjAM_JXIp0XAD0Tcymq1B06IWy5WY5ZqSYJSR6KC_jtp09KHig95zNhjO_EDcqcJJORXLMt9gX8ejbIiWuaMQavF7rndiswTMnXQEu9u1RIrxZrulAemr1Ui0tqmm6o-EtPY2qIhUbIfQTOZOgpNpIYCxFjp7J0RaKsRxG4GzKV75Ul5Yhfb_Dn99u0N6d7Ep6jjxQXPWeDl2BH9SeFANiwHJ2ZopjHYgCFvsNDxY9vHUMAXMqRAxqNG_69A2Tr6hZuOqb51wc6DZB9oAxjYHSub9_fk080GyDNey4hSG3PopqfZ6hfFq7cy)](https://mermaid.live/edit#pako:eNp1UsuOwjAM_JXIp0XAD0Tcymq1B06IWy5WY5ZqSYJSR6KC_jtp09KHig95zNhjO_EDcqcJJORXLMt9gX8ejbIiWuaMQavF7rndiswTMnXQEu9u1RIrxZrulAemr1Ui0tqmm6o-EtPY2qIhUbIfQTOZOgpNpIYCxFjp7J0RaKsRxG4GzKV75Ul5Yhfb_Dn99u0N6d7Ep6jjxQXPWeDl2BH9SeFANiwHJ2ZopjHYgCFvsNDxY9vHUMAXMqRAxqNG_69A2Tr6hZuOqb51wc6DZB9oAxjYHSub9_fk080GyDNey4hSG3PopqfZ6hfFq7cy)
+
+This diagram is maid using [Mermaid](https://mermaid.live/)
+### Code example
+Let's take advantage of a classic example to demonstrate the command design pattern. Consider that you are designing and building a software system for a bank, and its basic services are depositing, withdrawing, and transferring money from one account to another. This system would be accessed through a mobile app, an ATM device, and a web app.
+Lets start with implementing business model.
+```Python
+from dataclasses import dataclass, field
+import random
+import string
+
+
+def create_acc_id():
+    return "".join(random.choices(string.digits, k=12))
+
+
+@dataclass
+class Account:
+    owner: str
+    acc_id: str = field(default_factory=create_acc_id)
+    balance: int = 0
+
+    @staticmethod
+    def is_valid_deposite_amount(amount: float) -> bool:
+        return isinstance(amount, float) and amount >= 0
+
+    def is_valid_withdraw_amount(self, amount: float) -> bool:
+        return isinstance(amount, float) and amount < self.balance
+
+    def deposit(self, amount: float) -> None:
+        if not self.is_valid_deposite_amount(amount):
+            raise ValueError("You can only deposit none negative amount")
+        self.balance += amount
+
+    def withdraw(self, amount: float) -> None:
+        if not self.is_valid_withdraw_amount(amount):
+            raise ValueError(f"You can not withdraw ${amount}")import click
+
+from app.account import Account
+
+
+@click.group()
+def cli():
+    pass
+
+@click.command()
+@click.argument('owner')
+def create_account(owner):
+    account = Account(owner)
+    click.echo(account.acc_id)
+    return account.acc_id
+
+
+
+cli.add_command(create_account)
+
+if __name__ == "__main__":
+    cli()
+        self.balance -= amount
+
+class Bank:
+    def __init__(self) -> None:
+        self.__accounts = {}
+        self.__archived = {}
+
+    def open_account(self, account: Account) -> None:
+        if account.acc_id in self.__accounts:
+            raise ValueError("This account already exists")
+        self.__accounts.update({account.acc_id: account})
+
+    def close_account(self, account: Account) -> None:
+        if not account.acc_id in self.__accounts:
+            raise ValueError("No such account")
+        del self.__accounts[account.acc_id]
+        self.__archived.update({account.acc_id: account})
+```
+So we have two main class an Account and a Bank. To create user interface, I used click and click_shell libraries to create a nice and easy CLI for our Bank-System.
+
+```Python
+import click
+from click_shell import shell
+
+from app.account import Account
+from app.bank import my_bank
+
+
+@shell(prompt='bank > ', intro="Welcome to our bank app, \nEnter a command "
+                               "or type help for instruction")
+def bank():
+    pass
+
+
+@bank.command()
+@click.option("-owner", required=True, help="The account owner name")
+def create_account(owner) -> None:
+    """Create New Bank Account
+
+    Args:
+        owner (str): The name of the account owner
+    """
+    account = Account(owner)
+    my_bank.open_account(account)
+    print(f"Account created with Id {account.acc_id}")
+
+
+@bank.command()
+@click.option("-acc_id", required=True, help="The account id")
+@click.option("-amount", required=True, help="The amount to deposit",
+              type=click.FLOAT)
+def deposit(acc_id: str, amount: float) -> None:
+    """Deposit some amount of money to a bank account
+
+    Args:
+        acc_id (str): Account's ID
+        amount (float): The amount of money to be deposited
+    """
+    account = my_bank.get_account_by_acc_id(acc_id)
+    if not account:
+        print("There is no account with this account id")
+        return
+    account.deposit(amount)
+    print("Deposited successfully")
+    return
+
+
+@bank.command()
+@click.option("-acc_id", required=True, help="The account id")
+@click.option("-amount", required=True, help="The amount to withdraw",
+              type=click.FLOAT)
+def withdraw(acc_id: str, amount: float) -> None:
+    """Withdraw some amount of money to a bank account
+
+    Args:
+        acc_id (str): Account's ID
+        amount (float): The amount of money to be withdrawn
+    """
+    account = my_bank.get_account_by_acc_id(acc_id)
+    if not account:
+        print("There is no account with this account id")
+        return
+    account.withdraw(amount)
+    return
+
+
+@bank.command()
+@click.option("-acc_id", required=True, help="The account id")
+def account_info(acc_id: str) -> None:
+    """
+    Show the account information
+    Args:
+        acc_id (str): Account's ID
+    """
+    account = my_bank.get_account_by_acc_id(acc_id)
+    if not account:
+        print("There is no account with this account id")
+        return
+    print(account)
+    return
+
+
+if __name__ == "__main__":
+    bank()
+``` 
+Using this CLI app, you can interact with the main business logic of our bank system. As you see in the code, cli.py are calling Account and Bank methods directly. This means that if we change our business logic then we should apply these changes in cli.py accordingly and this means tight coupling. Notice that cli.py should know about existance of both classes and know about their respective methods.
+
+So to decouple our interface from our business logic, we need to add another layer to our application.
+To do this we create a file icommand.py and in it we create an interface for our bank transactions commands.
+
+```python
+from typing import Protocol
+
+
+class TransactionCommand(Protocol):
+
+    def execute():
+        ...
+```
+Then to implement this interface create a file commands.py and add the following code to it:
+
+```Python
+from app.account import Account
+from app.bank import my_bank
+
+class CreateCommand:
+    def __init__(self, owner: str):
+        self.owner = owner
+    def execute(self):
+        account = Account(self.owner)
+        my_bank.open_account(account)
+```
+I just implemented the account creation command, but obviously the other commands are not so different. (You can access the completed code here)
+
+Now it is enough to change the cli.py file accordingly:
+```Python
+from app.commands import CreateCommand
+
+@bank.command()
+@click.option("-owner", required=True, help="The account owner name")
+def create_account(owner) -> None:
+    """Create New Bank Account
+
+    Args:
+        owner (str): The name of the account owner
+    """
+    CreateCommand(owner).execute()
+```
+
+As you see, by using command design pattern we decoupled our user interface from our business logic but that is not all, now we can easily add other functionality like logging to execute() method without polluting our user interface or our business logic.
+
+### Resources to learn more:
+
+- https://refactoring.guru/design-patterns/command
+
+- [Implementing Undo And Redo With The Command Design Pattern](https://youtu.be/FM71_a3txTo)
+
+- [Command pattern. (2022, May 27). In Wikipedia.](https://en.wikipedia.org/wiki/Command_pattern)
+
+
+
+
+
+
